@@ -8,6 +8,7 @@
 package edu.wpi.first.wpiutil.datalog;
 
 import edu.wpi.first.wpiutil.WPIUtilJNI;
+import edu.wpi.first.wpiutil.datalog.DataLog.DataLogConfig;
 
 public class DataLogJNI extends WPIUtilJNI {
   public static native String getDataType(long impl);
